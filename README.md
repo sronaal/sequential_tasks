@@ -2,7 +2,7 @@
 
 **sequential_tasks** es una aplicación de escritorio desarrollada en **Python** para gestionar tareas de forma secuencial, asignando un tiempo específico a cada una.
 
-El proyecto fue diseñado y desarrollado **con apoyo de inteligencia artificial (IA)** como herramienta de asistencia durante el análisis, diseño y escritura del código.
+El proyecto fue diseñado y desarrollado **Realizado con IA** como herramienta de asistencia durante el análisis, diseño y escritura del código.
 
 ---
 
@@ -28,8 +28,30 @@ El objetivo es facilitar una mejor organización del tiempo y mantener el enfoqu
 
 ---
 
-## Estado del proyecto
+## Ejecución
 
-En desarrollo.
+### Windows
 
----
+```bash
+python -m venv venv
+venv\Script\activate
+```
+
+### Linux
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Instalación dependecias
+
+```bash
+pip install -r requirements.txt
+```
+
+### Ejecución desde terminal
+
+```bash
+python main.py
+```
